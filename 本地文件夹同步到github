@@ -1,0 +1,9 @@
+git bash here                    # 在windows中找到需要上传的文件夹：
+git init                         # 初始化 
+git config core.autocrlf false   # 设置换行符号   
+git add .                        # 提交文件到缓存区
+git commit -m 'first edition'    # 提交到版本库中
+git remote add origin https://github.com/zhangmman/Decision-Tree.git   # 建立连接（需要拷贝复制地址）
+git status                       # 查看状态是否有错误   （如果有错误，重复4、5两步骤，直到没有错误提示）
+git pull --rebase origin master  # pull  readme.Md文件
+git push -u origin master        # 同步到远程（需要输入账号密码）
