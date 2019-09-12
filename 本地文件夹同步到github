@@ -1,3 +1,7 @@
+1）先建立github对应的库；
+
+
+2）同步过程
 git bash here                    # 在windows中找到需要上传的文件夹：
 git init                         # 初始化 
 git config core.autocrlf false   # 设置换行符号   
