@@ -13,4 +13,4 @@ git remote add origin https://github.com/zhangmman/Decision-Tree.git   # 建立�
 git status                       # 查看状态是否有错误   （如果有错误，重复4、5两步骤，直到没有错误提示）
 git pull --rebase origin master  # pull  readme.Md文件
 git push -u origin master        # 同步到远程（需要输入账号密码）
-账号：zhangman@ncpeu.cn
+账号：zhangman@ncepu.cn
